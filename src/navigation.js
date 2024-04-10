@@ -49,7 +49,7 @@ export const footerData = {
       title: 'Pages',
       links: [
         { text: 'News', href: getBlogPermalink() },
-        { text: 'Awards', href: getPermalink('/awards') },
+        { text: 'Awards', href: getPermalink('category/awards') },
         { text: 'Events', href: getPermalink('event', 'category') },
         { text: 'Organizations', href: getPermalink('category/organizations') },
         { text: 'Contact', href: getPermalink('/contact') },
